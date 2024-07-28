@@ -15,10 +15,10 @@
 
 接下来再设置一个定时任务，比如，每周一凌晨三点运行脚本备份一次
 
-crontab -e
+`crontab -e`
 
 将任务放进去
 
-0 3 * * 1 /root/sh/backsh/upload.sh
+`0 3 * * 1 /root/sh/backsh/upload.sh`
 
 之后就不用麻烦地再手动去备份了，也不怕那天忘了机器过期没存数据
