@@ -22,3 +22,6 @@
 `0 3 * * 1 /root/sh/backsh/upload.sh`
 
 之后就不用麻烦地再手动去备份了，也不怕那天忘了机器过期没存数据
+
+# 引用
+主要用了这个项目[tickstep/aliyunpan](https://github.com/tickstep/aliyunpan)，可以去看看官方项目
